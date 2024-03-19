@@ -1,0 +1,129 @@
+body {
+    background-color:ghostwhite;
+}
+
+.home-buttons {
+    color:black;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+    font-style:italic;
+    font-size: 20px;
+    display:inline-block;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 20px;
+    padding-bottom:30px;
+}
+
+.home-buttons:hover {
+    opacity: 0.6;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.home-buttons:active{
+    opacity: 0.4;
+}
+
+.ProPic{
+    display: block;
+    padding-top:15px;
+}
+
+.intro_hello {
+    font-family:Mea Culpa;
+    font-weight:lighter;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.second_head{
+    font-style:italic;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.intro_para{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    font-style: italic;
+    font-size:18px;
+    display: inline-block;
+    width: 600px;
+}
+
+.LinkedIn {
+    background-color:rgb(42, 104, 219);
+    color:aliceblue;
+    font-family: Mea Culpa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    font-size:20px;
+}
+
+.LinkedIn:hover {
+    background-color:rgb(90, 138, 227);
+}
+
+.LinkedIn:active {
+    color: black;
+}
+
+.Email{
+    background-color:rgb(42, 104, 219);
+    color:aliceblue;
+    font-family: Mea Culpa;
+    font-size:23px;
+    padding-top: 1.5px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 4px;
+    display: inline-block;
+}
+
+.Email:hover{
+    background-color:rgb(90, 138, 227);
+}
+
+.Email:active{
+    color: black;
+}
+
+.bottom-menu{
+    padding-top:20px;
+}
+
+.spacer {
+    margin: 0 15px;
+}
+
+.space{
+    padding-top:10px;
+}
+
+.entry{
+    border-bottom:1px solid grey;
+    height: 250px;
+}
+
+.entry-pic{
+    width:70px;
+}
+
+.middle{
+    background-color: white;
+}
+
+.border-right{
+    border-right:1px solid grey;
+}
+
+.container-res{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
