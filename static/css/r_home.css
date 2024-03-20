@@ -1,7 +1,3 @@
-body {
-    background-color:ghostwhite;
-}
-
 .home-buttons {
     color:black;
     cursor: pointer;
@@ -25,20 +21,24 @@ body {
     opacity: 0.4;
 }
 
-.ProPic{
-    display: block;
-    padding-top:15px;
+.home-contianer{
+    padding-top: 20px;
+}
+
+.homePic{
+    border-radius: 15px; 
+    border:thin solid rgb(238, 237, 237);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    width: 500px;
 }
 
 .intro_hello {
     font-family:Mea Culpa;
     font-weight:lighter;
     text-align: center;
-    margin-top: 20px;
 }
 
 .second_head{
-    font-style:italic;
     padding-top:10px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -46,9 +46,7 @@ body {
 
 .intro_para{
     padding-bottom: 10px;
-    padding-left: 10px;
     padding-right:10px;
-    font-style: italic;
     font-size:18px;
     display: inline-block;
     width: 600px;
@@ -57,13 +55,13 @@ body {
 .LinkedIn {
     background-color:rgb(42, 104, 219);
     color:aliceblue;
-    font-family: Mea Culpa;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
+    padding-top: 1.5px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 4px;
     font-size:20px;
+    border-radius:5px;
+    box-shadow: 5px 5px 10px 2px grey;
 }
 
 .LinkedIn:hover {
@@ -77,13 +75,13 @@ body {
 .Email{
     background-color:rgb(42, 104, 219);
     color:aliceblue;
-    font-family: Mea Culpa;
-    font-size:23px;
+    font-size:20px;
     padding-top: 1.5px;
     padding-bottom: 4px;
     padding-left: 3px;
     padding-right: 4px;
-    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px grey;
 }
 
 .Email:hover{
@@ -99,7 +97,7 @@ body {
 }
 
 .spacer {
-    margin: 0 15px;
+    margin: 0 30px;
 }
 
 .space{
@@ -109,14 +107,12 @@ body {
 .entry{
     border-bottom:1px solid grey;
     height: 250px;
+    border-radius: 15px;
+    background-color: white; 
 }
 
 .entry-pic{
     width:70px;
-}
-
-.middle{
-    background-color: white;
 }
 
 .border-right{
@@ -125,5 +121,35 @@ body {
 
 .container-res{
     padding-top: 30px;
-    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 50px;
+    width:900px;
+    background-color: white;
+}
+
+.abme-container{
+    padding-top:50px;
+    padding-bottom:80px;
+}
+
+.abme-img-contain{
+    padding-left:150px;
+}
+.abme-img{
+    box-shadow: -1px 1px 5px 15px white;
+    border-radius: 300px;
+    padding-left: 30px;
+    padding-right:30px;
+}
+
+.small-heading{
+    font-size:25px;
+    font-weight:bold;
+}
+
+.section-divider {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

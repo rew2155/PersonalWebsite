@@ -1,0 +1,36 @@
+{% extends "r_home.html" %}
+
+{% block content%}
+
+<div class = "container abme-container">
+    <div class = "row">
+        <div class = "col-md-6">
+            <h2 class="second_head">
+                About Me
+            </h2>
+            <p class ="intro_para">
+            I am a senior at Columbia University majoring in <strong>Computer Science</strong> and concentrating in <strong>East Asain studies.</strong>
+            </p> 
+            <p class ="intro_para">
+            At <strong>Columbia University</strong> I have completed many courses pertaining to coding including:
+            </p>
+            <p>
+            Intro to Java, Data Structures, Advanced Programming, 
+            Discrete Math, Fundamentals of Computer Science, Intro to Databases, Software Engineering as a Service, Computer Science Theory, 
+            Intro to Cryptography, Artificial Intelligence, Computer Graphics, and User Interface Design
+            </p>
+            <p class="small-heading">Proficient Programming Languages and Software Tools:</p>
+            <p class = "intro_para"><strong>Java, JavaScript, HTML, CSS, Ruby, C, C++, SQL, Python, Git, Heroku, Cucumber, RSpec, Excel, Google Sheets</strong></p>
+            <p class ="intro_para">
+            My extracirricular activities include performing and listening to music, coding fun projects like this one, learning languages and making jewelry.
+            </p>
+            <a href="/projects">View some of my projects here</a>
+        </div>
+        <div class="col-md-6 abme-img-contain">
+            <center><img class = "abme-img" src="{{ url_for('static', filename='attachments/pro_pic_side.png') }}" alt="Profile Picture"></center>
+        </div>
+    </div>
+</div>
+
+
+{% endblock%}
