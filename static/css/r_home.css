@@ -29,7 +29,7 @@
     border-radius: 15px; 
     border:thin solid rgb(238, 237, 237);
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-    width: 500px;
+    width: 400px;
 }
 
 .intro_hello {
@@ -45,11 +45,12 @@
 }
 
 .intro_para{
-    padding-bottom: 10px;
-    padding-right:10px;
-    font-size:18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right:15px;
+    font-size:17px;
     display: inline-block;
-    width: 600px;
+    width: 850px;
 }
 
 .LinkedIn {
@@ -105,10 +106,9 @@
 }
 
 .entry{
-    border-bottom:1px solid grey;
     height: 250px;
     border-radius: 15px;
-    background-color: white; 
+    background-color: rgba(255, 255, 255, 0.501); 
 }
 
 .entry-pic{
@@ -116,7 +116,7 @@
 }
 
 .border-right{
-    border-right:1px solid grey;
+    border-right:1px solid rgb(78, 77, 77);
 }
 
 .container-res{
@@ -125,7 +125,6 @@
     padding-right:20px;
     padding-bottom: 50px;
     width:900px;
-    background-color: white;
 }
 
 .abme-container{
@@ -149,7 +148,7 @@
 }
 
 .section-divider {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
 }
