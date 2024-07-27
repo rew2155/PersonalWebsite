@@ -1,69 +1,58 @@
 {% extends "r_home.html" %}
 
-{% block content%}
+{% block content %}
 
-<div class = "container">
-    <p class = "space"></p>
+<div class="container">
+    <p class="space"></p>
 </div>
 
 <div class="container middle">
     <div class="row entry">
-            <div class="col-md-3 border-right">
-                <p class="space"></p>
-                <img class = "entry-pic" src="{{ url_for('static', filename='attachments/halftimeLogo.png') }}" alt="Halftime Show Database Logo">
-                <h5>Halftime Show Database</h5>
-            </div>
-            <div class="col-md-8">
-                <span class="spacer"></span>
-                <p>This is a web application that tells the user information about all past Superbowl halftime show performances.
-                    With this database, you can search by year, Superbowl number, artist featured, and any other information you 
-                    know about the performance.
-                </p>
-                <p><a href="https://youtu.be/TBBu06vqXq0" target="_blank">Demo Video</a></p>
-                <p>Technologies Used: Written in <strong>HTML, CSS</strong>, and <strong>JavaScript</strong>. Hosted on <strong>Heroku</strong></p>
-            </div>
+        <div class="col-12 col-md-3 border-right mb-3 mb-md-0">
+            <img class="entry-pic img-fluid" src="{{ url_for('static', filename='attachments/halftimeLogo.png') }}" alt="Halftime Show Database Logo">
+            <h5>Halftime Show Database</h5>
+        </div>
+        <div class="col-12 col-md-9">
+            <p>This is a web application that tells the user information about all past Superbowl halftime show performances.
+                With this database, you can search by year, Superbowl number, artist featured, and any other information you 
+                know about the performance.
+            </p>
+            <p><a href="https://youtu.be/TBBu06vqXq0" target="_blank">Demo Video</a></p>
+            <p>Technologies Used: Written in <strong>HTML, CSS</strong>, and <strong>JavaScript</strong>. Hosted on <strong>Heroku</strong></p>
+        </div>
     </div>
 
-    <p class="space"></p>
-
-    <div class="row entry">
-        <div class="col-md-3 border-right">
-            <p class="space"></p>
-            <img class = "entry-pic" src="{{ url_for('static', filename='attachments/UELogo.png') }}" alt="University Employeed Logo">
+    <div class="row entry mt-4">
+        <div class="col-12 col-md-3 border-right mb-3 mb-md-0">
+            <img class="entry-pic img-fluid" src="{{ url_for('static', filename='attachments/UELogo.png') }}" alt="University Employeed Logo">
             <h5>University Employeed</h5>
         </div>
-        <div class="col-md-8">
-            <span class="spacer"></span>
-            <p>This Web application allows the user to search available research and job oppurtunities on Columbia Campus. 
+        <div class="col-12 col-md-9">
+            <p>This Web application allows the user to search available research and job opportunities on Columbia Campus. 
             </p>
             <p><a href="https://youtu.be/mxIMdtscmWw" target="_blank">Demo Video</a></p>
-            <p>Technologies Used: Written in <strong>Ruby on Rails</strong>. Tested using <strong>Rspec Tests</strong> and <strong>Cucumber Tests.</strong>
-            Hosted on <strong>Heroku</strong></p>
+            <p>Technologies Used: Written in <strong>Ruby on Rails</strong>. Tested using <strong>RSpec Tests</strong> and <strong>Cucumber Tests</strong>. Hosted on <strong>Heroku</strong></p>
         </div>
     </div>
 
-    <p class="space"></p>
-
-    <div class="row entry">
-        <div class="col-md-3 border-right">
-            <p class="space"></p>
-            <img class = "entry-pic" src="{{ url_for('static', filename='attachments/movieLogo.png') }}" alt="Movie Database Logo">
+    <div class="row entry mt-4">
+        <div class="col-12 col-md-3 border-right mb-3 mb-md-0">
+            <img class="entry-pic img-fluid" src="{{ url_for('static', filename='attachments/movieLogo.png') }}" alt="Movie Database Logo">
             <h5>Movie Database</h5>
         </div>
-        <div class="col-md-8">
-            <span class="spacer"></span>
+        <div class="col-12 col-md-9">
             <p>Use this Web application to search popular movies and information about these movies. You can sort the movies by rating and search 
                 the database with the movie title or director name. 
             </p>
             <p>Coming soon!</p>
-            <p>Technologies Used: Written in <strong>Ruby on Rails</strong>. Tested using <strong>Rspec Tests</strong> and <strong>Cucumber Tests.</strong></p>
+            <p>Technologies Used: Written in <strong>Ruby on Rails</strong>. Tested using <strong>RSpec Tests</strong> and <strong>Cucumber Tests</strong></p>
         </div>
     </div>
-    
 
     <p class="space"></p>
     <p class="space"></p>
     <p class="space"></p>
 
 </div>
+
 {% endblock %}
