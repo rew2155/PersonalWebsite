@@ -14,7 +14,6 @@ body {
     border-bottom: 1px solid #2C3531;
 }
 
-/* Navbar link styles */
 .nav-name {
     font-weight: lighter;
     text-align: center;
@@ -76,6 +75,11 @@ body {
     min-width: 24px;
     min-height: 24px;
     fill: var(--light-brown);
+    transition: transform 0.3s ease;
+}
+
+.LinkedIn svg:hover {
+    transform: scale(1.1); 
 }
 
 .second_head {
@@ -206,10 +210,12 @@ body {
     color: var(--green);
     text-decoration: none;
     font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease; 
 }
 
 .entry a:hover {
     color: var(--light-brown);
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
@@ -229,3 +235,5 @@ body {
         width: 50px;
     }
 }
+
+
