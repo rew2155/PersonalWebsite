@@ -2,44 +2,46 @@
 
 {% block content %}
 
+<div class="contains-entries">
+
 <div class="container">
     <div class="space"></div>
 </div>
 
 <div class="container middle">
     <div class="row entry mt-4 card p-3 mb-4">
-        <div class="col-12 col-md-3 border-right mb-3 mb-md-0">
+        <div class="col-12 col-md-3 mb-3 mb-md-0">
             <a href="https://ers-game-92167acbd829.herokuapp.com/" target="_blank"><img class="entry-pic img-fluid" style="max-height:65px;" src="https://images.unsplash.com/photo-1598578800855-1496bd64db8b?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ERS Game Logo"></a>
             <h5>ERS Tutorial Website</h5>
         </div>
         <div class="col-12 col-md-9">
-            <p>Use this Web application to learn all about ERS in a fun and interactive manner. Complete a multi-step tutorial and then continue on to test your knowledge with an interactive quiz.</p>
+            <p>This web application offers a comprehensive and engaging tutorial on ERS (Egyptian Rat Screw). Users can progress through a multi-step tutorial and then test their knowledge with an interactive quiz.</p>
             <p><a href="https://ers-game-92167acbd829.herokuapp.com/" target="_blank">Visit Site</a></p>
-            <p>Technologies Used: Written in <strong>J-Query, HTML and CSS</strong>. Hosted on <strong>Heroku</strong></p>
+            <p><strong>Technologies Used:</strong> jQuery, HTML, CSS. Hosted on Heroku.</p>
         </div>
     </div>
 
     <div class="row entry card p-3 mb-4">
-        <div class="col-12 col-md-3 border-right mb-3 mb-md-0">
+        <div class="col-12 col-md-3 mb-3 mb-md-0">
             <a href="https://youtu.be/TBBu06vqXq0" target="_blank"><img class="entry-pic img-fluid" src="{{ url_for('static', filename='attachments/halftimeLogo.png') }}" alt="Halftime Show Database Logo"></a>
             <h5>Halftime Show Database</h5>
         </div>
         <div class="col-12 col-md-9">
-            <p>This web application provides information about all past Superbowl halftime show performances. You can search by year, Superbowl number, artist featured, and other performance details.</p>
-            <p><a href="https://youtu.be/TBBu06vqXq0" target="_blank">Demo Video</a></p>
-            <p>Technologies Used: Written in <strong>HTML, CSS</strong>, and <strong>JavaScript</strong>. Hosted on <strong>Heroku</strong></p>
+            <p>This web application provides detailed information about all past Super Bowl halftime show performances. Users can search by year, Super Bowl number, artist, and other performance details.</p>
+            <p><a href="https://youtu.be/TBBu06vqXq0" target="_blank">Watch Demo</a></p>
+            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript. Hosted on Heroku.</p>
         </div>
     </div>
 
     <div class="row entry mt-4 card p-3 mb-4">
-        <div class="col-12 col-md-3 border-right mb-3 mb-md-0">
+        <div class="col-12 col-md-3 mb-3 mb-md-0">
             <a href="https://youtu.be/mxIMdtscmWw" target="_blank"><img class="entry-pic img-fluid" src="{{ url_for('static', filename='attachments/UELogo.png') }}" alt="University Employeed Logo"></a>
             <h5>University Employeed</h5>
         </div>
         <div class="col-12 col-md-9">
-            <p>This web application allows users to search for available research and job opportunities on the Columbia campus.</p>
-            <p><a href="https://youtu.be/mxIMdtscmWw" target="_blank">Demo Video</a></p>
-            <p>Technologies Used: Written in <strong>Ruby on Rails</strong>. Tested using <strong>RSpec</strong> and <strong>Cucumber Tests</strong>. Hosted on <strong>Heroku</strong></p>
+            <p>This web application helps users find research and job opportunities on the Columbia University campus. It provides a user-friendly interface to search for available positions.</p>
+            <p><a href="https://youtu.be/mxIMdtscmWw" target="_blank">Watch Demo</a></p>
+            <p><strong>Technologies Used:</strong> Ruby on Rails. Tested with RSpec and Cucumber. Hosted on Heroku.</p>
         </div>
     </div>
 
@@ -47,5 +49,7 @@
     <div class="space"></div>
     <div class="space"></div>
 </div>
+</div>
 
 {% endblock %}
+

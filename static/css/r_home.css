@@ -3,7 +3,7 @@
     --green: #116466;
     --light-brown: #db8b46;
     --peach: #FFCB9A;
-    --light-blue: #D1E8E2;
+    --light-blue: #e8f1ef;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
     background-color: var(--light-blue);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .LinkedIn {
@@ -116,17 +116,6 @@ body {
     overflow: hidden;
 }
 
-.entry::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 25%;
-    height: 100%;
-    background: linear-gradient(to left, var(--light-brown), transparent);
-    z-index: -1;
-}
-
 .entry-pic {
     width: 100%;
     max-width: 70px;
@@ -136,12 +125,13 @@ body {
     transition: transform 0.2s;
 }
 
-.entry-pic:hover {
-    transform: scale(1.05);
+.card{
+    border: 1px solid var(--green);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.border-right {
-    border-right: 1px solid var(--dark-green);
+.entry-pic:hover {
+    transform: scale(1.05);
 }
 
 .icon {
@@ -179,6 +169,12 @@ body {
     overflow: hidden;
 }
 
+.contains-entries{
+    background-color: var(--light-blue);
+    border-radius: 15px;
+    padding: 2%;
+}
+
 .resume-headers {
     text-align: center;
     font-size: clamp(1.5rem, 4vw, 2.5rem);
@@ -207,14 +203,14 @@ body {
 }
 
 .entry a {
-    color: var(--green);
+    color: var(--light-brown);
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.3s ease, color 0.3s ease; 
 }
 
 .entry a:hover {
-    color: var(--light-brown);
+    color: var(--green);
     transform: scale(1.05);
 }
 
