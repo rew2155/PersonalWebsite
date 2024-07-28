@@ -7,12 +7,13 @@
 }
 
 body {
-    background-color:  #e8f1ef;
+    background-color:  #828887;
+    color:#2C3531;
 }
 
 .navbar {
     border-bottom: 3px solid #db8b46;
-    background-color: #daab82;
+    background-color:  #db8b46;
     position:fixed;
     width: 100%;
     z-index:1100;
@@ -21,9 +22,8 @@ body {
 .nav-name {
     text-align: center;
     font-size: clamp(1rem, 2vw, 1.5rem);
-    color: #2C3531;
+    color: var(--dark-green);
     transition: font-size 0.3s ease;
-    font-weight: lighter;
 }
 
 .nav-name:hover {
@@ -31,23 +31,22 @@ body {
 }
 
 .nav-projects {
-    color: #3a4741;
+    color: var(--dark-green);
     transition: font-size 0.3s ease;
-    font-weight: light;
 }
 
 .nav-projects:hover {
-    font-size: 1.10rem;
+    font-size: 1.75rem;
     text-decoration: none;
     color: #3e4643;
 }
 
 .home-container {
-    background-color: var(--light-blue);
+    background-color: white;
     padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px var(--dark-green);
 }
 
 .LinkedIn {
@@ -55,7 +54,7 @@ body {
 }
 
 .container-res {
-    background-color: var(--light-blue);
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -70,7 +69,7 @@ body {
     max-width: 400px;
     margin-top: 2%;
     border-radius: 50%;
-    border: thin solid var(--dark-green);
+    border: thin solid var(--light-brown);
 }
 
 .LinkedIn svg {
@@ -115,7 +114,6 @@ body {
 .entry {
     height: auto;
     border-radius: 15px;
-    background-color: var(--light-blue);
     padding: 15px;
     margin-bottom: 20px;
     position: relative;
@@ -132,7 +130,7 @@ body {
 }
 
 .card{
-    border: 1px solid var(--green);
+    border: 2px solid #828887;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -176,18 +174,17 @@ body {
 }
 
 .contains-entries{
-    background-color: var(--light-blue);
+    background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 2%;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px var(--dark-green);
 }
 
 .resume-headers {
     text-align: center;
     font-size: clamp(1.5rem, 4vw, 2.5rem);
-    color: var(--dark-green);
-    border-bottom: 2px solid var(--green);
+    border-bottom: 2px solid var(--light-brown);
     padding-bottom: 10px;
 }
 
@@ -218,7 +215,7 @@ body {
 }
 
 .entry a:hover {
-    color: var(--green);
+    text-decoration: underline;
     transform: scale(1.05);
 }
 
