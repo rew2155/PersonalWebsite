@@ -1,9 +1,13 @@
-from flask import Flask
-from flask import render_template, redirect, url_for
-from flask import Response, request, jsonify
+from flask import Flask, render_template, redirect, request
+
 app = Flask(__name__)
 
-#routes
+@app.before_request
+def redirect_to_non_www():
+    if request.host.startswith('www.'):
+        return redirect('https://' + request.host[4:] + request.path, code=301)
+
+# Routes
 @app.route('/')
 def welcome():
     return render_template('welcome.html')
@@ -23,4 +27,4 @@ def resume():
 # AJAX FUNCTIONS
 
 if __name__ == '__main__':
-   app.run(debug = True)
+   app.run(debug=True)
